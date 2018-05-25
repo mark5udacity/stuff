@@ -2,8 +2,18 @@
   text-align: center;
 }
 
+.progress-bar {
+  width: 200px;
+  border: thick solid green;
+}
+
+.progress-bar .progress {
+  width: 10%;
+  border: thin solid red;
+}
+
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin 5s 1s linear;
   height: 80px;
 }
 
